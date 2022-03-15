@@ -1,3 +1,67 @@
 /* Journey to the Center of the Earth Practicum */ 
 /* Andrew Royer */
 
+header {
+
+margin: 20px ;
+padding: 20px;
+border: 20px color=rgb(136,102,68); 
+box-shadow: 10px 10px ;
+border-radius: 15px
+
+}
+
+
+nav {
+
+    margin: 20px;
+    padding: 20px ;
+    border: 20px color=rgb(136,102,68); 
+    box-shadow: 10px 10px ;
+
+
+}
+
+
+
+main {
+
+    margin:  20px;
+    padding: 20px ;
+    border: 20px color=rgb(136,102,68); 
+    box-shadow: 10px 10px ;
+
+
+
+
+}
+
+
+
+aside {
+
+
+
+
+    margin: 20px ;
+    padding: 20px ;
+    border: 20px color=rgb(136,102,68); 
+    box-shadow: 10px 10px ;
+}
+
+
+
+
+footer {
+
+
+
+
+
+    margin: 20px ;
+    padding: 20px ;
+    border: 20px color=rgb(136,102,68); 
+    box-shadow: 10px 10px ;
+    border-radius: 15px 
+
+}
