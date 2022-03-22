@@ -47,7 +47,7 @@ main {
     margin:  20px;
     padding: 20px ;
     border: 20px color=rgb(136,102,68); 
-    box-shadow: 30px 30px ;
+    box-shadow: 10px 10px 10px rgba(255,255 ,255, 0.75) ;
     background-color: rgba(255,255 ,255, 0.75);
    
 
@@ -128,12 +128,18 @@ text-decoration: underline;
       
   }
 
-  :lang("fr") {
+  :lang(fr) :lang(is) :lang(it) {
 
 
 font-style: italic;
 
 
+
+  }
+
+  .characater {
+
+font-weight: bolds;
 
   }
 /* Finish 1 week */
