@@ -2,12 +2,23 @@
 /* Andrew Royer */
 
 header {
-
+/* Add Background image, size, TL,TR radius, inset black  box shadow */
 margin: 20px ;
 padding: 20px;
 border: 20px color=rgb(136,102,68); 
 box-shadow: 10px 10px 10px rgba(255,255 ,255, 0.75) inset;
 border-radius: 15px
+
+
+}
+
+header h1 {
+
+
+/* Fill Later */
+
+
+
 
 
 }
