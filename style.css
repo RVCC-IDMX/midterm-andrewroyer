@@ -106,9 +106,8 @@ aside {
 aside .submission{
 
 border-style:solid ;
-padding: 15px;
 background-color: rgba(255, 255, 255, 0.50);
-
+max-width: fit-content;
 
 }
 
@@ -186,91 +185,47 @@ font-weight: bolds;
 
 
 
-
 @media (min-width: 768px ) {
 
-header h1{
+  header h1{
+  
+  
+  
+  font-size:3rem; 
 
+  }
 
+ aside {
 
-font-size:3rem; 
-
-} 
-
-
-aside {
-
-display:grid;
+display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-
-}
-
+ }
+    
 aside h2 {
-
-
-
+    
+    
 grid-column: 1/-1;
-
-}
-
+     }
+    
 aside .signature {
-
+    
 text-align:center;
+    
+    }
+    
+    
+    
+    
+  }
 
-}
-
-
-
-
-}
-
-
-
-
-
-
+  
+ 
+  
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  @media screen and (min-width: 1024px ) {
+@media screen and (min-width: 1024px ) {
 
 body {
 
@@ -288,6 +243,10 @@ grid-template-areas:
 max-width: 1200px;
 margin-left:auto;
 margin-right:auto;
+
+
+
+
 
 }
 
@@ -308,6 +267,3 @@ footer {grid-area: footer; }
 
 
   }
-
-
-    
